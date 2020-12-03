@@ -1,5 +1,16 @@
 # yim-test
-test
+目录结构
+Test目录进去
+Case是存放测试用例的文件
+Module是存放一些通用测试用例方法
+Tool是存放一些通用配置工具类，比如设备信息，mysql连接信息
+
+Case目录中，test_liaotian001.py和test_sousuo002.py是测试用例，调用Module模块的方法和mysql方法获取测试用例内容和结果，然后运行测试用例
+Case目录其他测试用例文件，暂时是没有抽取通用方法，都是直接运行的
+
+Case目录中allTestRun.py是运行测试用例，并且输入测试报告的文件
+Case目录中allThread.py是尝试多线程运行测试用例，并且输入测试报告的文件
+
 
 
 
