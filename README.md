@@ -38,24 +38,42 @@ Case目录中allThread.py是尝试多线程运行测试用例，并且输出测�
 二、安卓adb环境命令操作
 
 1.查看应用包名和当前activity
+
+查看当前连接设备
+
 adb devices
+
+查看当前连接设备打开的app包名和activity
+
+
 adb shell dumpsys window | findstr mCurrentFocus
 
+
 2.安装apk
+
 adb install 
 
+
 3.利用相同wifi环境连接手机
+
 adb tcpip 5555
+
 adb connect 10.12.1.148:5555
 
+
 4.控件定位工具
+
 4.1、appium自带工具
 
+
 4.2、旧版本uiautomatorviewer
+
 C:\Users\panbihong\AppData\Local\Android\Sdk\tools\bin
 
 
+
 三、自动化测试实施过程
+
 
 1、打开appium，配置端口号，启动服务
 
