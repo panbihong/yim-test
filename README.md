@@ -15,9 +15,9 @@ Case目录中，test_liaotian001.py和test_sousuo002.py是测试用例，调用M
 Case目录其他测试用例文件，暂时是没有抽取通用方法，都是直接运行的
 
 
-Case目录中allTestRun.py是运行测试用例，并且输入测试报告的文件
+Case目录中allTestRun.py是运行测试用例，并且输出测试报告的文件
 
-Case目录中allThread.py是尝试多线程运行测试用例，并且输入测试报告的文件
+Case目录中allThread.py是尝试多线程运行测试用例，并且输出测试报告的文件
 
 
 
