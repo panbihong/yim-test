@@ -6,7 +6,7 @@ import HTMLTestRunner
 # 获取所有测试用例
 def get_allcase():
     # 测试用例存放路径
-    case_path = 'E:/untitled1/Test/Case'
+    case_path = '//Test/Case'
     discover = unittest.defaultTestLoader.discover(case_path, pattern="test_xiao*.py")
     suite = unittest.TestSuite()
     suite.addTest(discover)

@@ -8,7 +8,7 @@ from appium.webdriver.common.touch_action import TouchAction
 class TestXiaoxi3(unittest.TestCase):
 
     def setUp(self):
-        devices.shebei1(self)
+        devices.shebei2(self)
 
         sleep(5)
 
