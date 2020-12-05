@@ -21,6 +21,6 @@ def shebei2(self):
     desired_caps['appActivity'] = 'com.yidejia.yim.SplashActivity'
     desired_caps['noReset'] = True
     desired_caps['dontStopAppOnReset'] =True
-    self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
+    self.driver = webdriver.Remote('http://127.0.0.1:4725/wd/hub', desired_caps)
     self.driver.implicitly_wait(30)
 
