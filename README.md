@@ -80,11 +80,16 @@ C:\Users\panbihong\AppData\Local\Android\Sdk\tools\bin
  
 
 2、连接手机，打开手机允许USB调试，adb输入获取连接设备的手机、打开手机测试app获取app包名和activity
+
 adb devices
+
 adb shell dumpsys window | findstr mCurrentFocus
 
+
 3、再次打开appium，启动session会话，填写手机的信息
-      启动会话后等待一会即可看到手机app的页面，轻松定位app的各个控件页面元素
+
+ 
+ 启动会话后等待一会即可看到手机app的页面，轻松定位app的各个控件页面元素
 
  
 
